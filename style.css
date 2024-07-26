@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+    padding: 10px
+}
+
+.links {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+
+}
+.container{
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+a:hover {
+    color:yellow
+}
+
+.description {
+    font-family:'Courier New', Courier, monospace; ;
+    text-align: center;
+}
+
+
+.images {
+    
+}
+
+ul,ol {
+    text-align: center;
+}
+
+.homepage {
+    font-size: 32px;
+    text-align: center;
+
+}
+.homepage >a {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace; ;
+}
